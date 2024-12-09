@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE prisiones SYSTEM "prisiones.dtd">
+<prisiones>
+    <prision>
+        <codigo>001</codigo>
+        <nombre>Prisión Modelo</nombre>
+        <director>
+            <nombre_completo>Juan Pérez</nombre_completo>
+            <fecha_nombramiento>2015-06-01</fecha_nombramiento>
+        </director>
+        <direccion>Calle Falsa 123, Madrid</direccion>
+        <inauguracion>1985-03-15</inauguracion>
+        <capacidad>500</capacidad>
+        <funcionarios>
+            <funcionario>
+                <puesto>carcelero</puesto>
+                <fecha_incorporacion>2010-09-15</fecha_incorporacion>
+                <nombre_completo>Pedro Gómez</nombre_completo>
+            </funcionario>
+        </funcionarios>
+        <reclusos>
+            <recluso>
+                <numero_recluso>12345</numero_recluso>
+                <nombre_completo>Carlos Sánchez</nombre_completo>
+                <celda>
+                    <numero_celda>12</numero_celda>
+                    <pabellon>A</pabellon>
+                    <plazas>4</plazas>
+                </celda>
+                <fecha_ingreso>2022-01-10</fecha_ingreso>
+                <duracion_condena>10</duracion_condena>
+                <peligrosidad>peligroso</peligrosidad>
+            </recluso>
+        </reclusos>
+        <celdas>
+            <celda>
+                <numero_celda>12</numero_celda>
+                <pabellon>A</pabellon>
+                <plazas>4</plazas>
+            </celda>
+        </celdas>
+    </prision>
+</prisiones>
+
+
+
+

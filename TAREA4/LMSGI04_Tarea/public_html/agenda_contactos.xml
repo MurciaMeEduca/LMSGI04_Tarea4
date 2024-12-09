@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agenda_contactos.xsd">
+    <ficha categoria="empresa" zona="La flota">
+        <nombre>Juan</nombre>
+        <apellido1>Pérez</apellido1>
+        <apellido2>García</apellido2>
+        <telefonos>
+            <telefono tipo="movil">612345678</telefono>
+            <telefono tipo="fijo">912345678</telefono>
+        </telefonos>
+        <emails>
+            <email>juan.perez@example.com</email>
+        </emails>
+        <direcciones>
+            <direccion>
+                <calle>Calle Mayor, 10</calle>
+                <codigo_postal>30001</codigo_postal>
+                <ciudad>Murcia</ciudad>
+                <pais>España</pais>
+            </direccion>
+        </direcciones>
+    </ficha>
+    <ficha categoria="particular">
+        <nombre>Ana</nombre>
+        <apellido1>López</apellido1>
+        <telefonos>
+            <telefono tipo="movil">622345678</telefono>
+        </telefonos>
+    </ficha>
+</agenda>
+
